@@ -1,0 +1,79 @@
+name: Sync ORCID publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub schedules use UTC; 02:23 UTC is 10:23 in Asia/Shanghai.
+    - cron: '23 2 * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: academic-pages
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - name: Check out the latest default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Verify synchronization safeguards
+        run: python -m unittest discover -s scripts/tests -p 'test_*.py'
+      - name: Synchronize public ORCID works and commit the data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            # This is an ephemeral runner checkout. On a competing edit, refresh
+            # the source and regenerate the data; never force-push the branch.
+            git fetch origin "$DEFAULT_BRANCH"
+            git reset --hard "origin/$DEFAULT_BRANCH"
+            python scripts/sync_orcid.py
+            git add -- data/orcid.json
+            if git diff --cached --quiet; then
+              break
+            fi
+            git commit -m 'Update public ORCID publications'
+            if git push origin "HEAD:$DEFAULT_BRANCH"; then
+              break
+            fi
+            if [ "$attempt" = 3 ]; then
+              echo 'Could not commit ORCID data after three attempts.' >&2
+              exit 1
+            fi
+          done
+          # Include any newer user edits in the public artifact as well.
+          git fetch origin "$DEFAULT_BRANCH"
+          git merge --ff-only "origin/$DEFAULT_BRANCH"
+      - name: Package the public website
+        run: python scripts/build_site.py --output _site
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload public website only
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      # A GITHUB_TOKEN commit does not trigger a separate push workflow. Deploy
+      # here so the newly synchronized publications appear on the live website.
+      - name: Deploy updated website
+        id: deployment
+        uses: actions/deploy-pages@v4
