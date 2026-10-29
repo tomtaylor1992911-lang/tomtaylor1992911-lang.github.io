@@ -1,8 +1,8 @@
 {
   "orcid": "0000-0003-0360-5526",
   "source_url": "https://orcid.org/0000-0003-0360-5526",
-  "last_sync": "2026-10-28T03:03:36Z",
-  "work_count": 49,
+  "last_sync": "2026-10-29T03:05:53Z",
+  "work_count": 50,
   "publications": [
     {
       "id": "orcid-e03cb9e4c83c2c4e",
@@ -127,11 +127,24 @@
       "authors": "Xiaxia Cui, Yiqing Liu, Xinyi Qiu, Manfei Liu, Biao Cheng, Yuan Zhou, Changguo Xue, Sheng Zhang, Xin Tang, Qiang Tang",
       "journal": "Advanced Science",
       "year": 2026,
-      "publication_date": "2026-07-30",
+      "publication_date": "2026-10",
       "doi": "10.1002/advs.76884",
       "url": "https://doi.org/10.1002/advs.76884",
       "type": "journal-article",
       "put_code": 222327950,
+      "source": "orcid"
+    },
+    {
+      "id": "orcid-5ef4633bd3dc0531",
+      "title": "PROSE: Rubric-Aware Multi-Objective Fine-Tuning of Small Language Models for Automated Assessment of Second-Language Writing",
+      "authors": "Hua Xu, Jie Ding, Rui Xu, Qiang Tang",
+      "journal": "Applied Sciences",
+      "year": 2026,
+      "publication_date": "2026-10-28",
+      "doi": "10.3390/app162110683",
+      "url": "https://doi.org/10.3390/app162110683",
+      "type": "journal-article",
+      "put_code": 231539600,
       "source": "orcid"
     },
     {
@@ -643,13 +656,13 @@
     }
   ],
   "sync_info": {
-    "public_groups": 49,
+    "public_groups": 50,
     "excluded_patents": 0,
     "duplicates_removed": 0,
     "types": {
-      "journal-article": 49
+      "journal-article": 50
     },
-    "details_received": 49,
+    "details_received": 50,
     "missing_authors": 11,
     "missing_journal": 0,
     "warnings": []
