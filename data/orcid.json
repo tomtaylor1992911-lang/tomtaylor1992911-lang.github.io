@@ -1,8 +1,8 @@
 {
   "orcid": "0000-0003-0360-5526",
   "source_url": "https://orcid.org/0000-0003-0360-5526",
-  "last_sync": "2026-10-29T03:05:53Z",
-  "work_count": 50,
+  "last_sync": "2026-10-30T03:07:01Z",
+  "work_count": 51,
   "publications": [
     {
       "id": "orcid-e03cb9e4c83c2c4e",
@@ -145,6 +145,19 @@
       "url": "https://doi.org/10.3390/app162110683",
       "type": "journal-article",
       "put_code": 231539600,
+      "source": "orcid"
+    },
+    {
+      "id": "orcid-1eada38b8b68f34d",
+      "title": "Recovery Policy Optimization for Online Quality Monitoring and Hybrid Force/Position Control in Robotic Precision Assembly",
+      "authors": "Fengwei Zhang, Rui Xu, Qiang Tang",
+      "journal": "Applied Sciences",
+      "year": 2026,
+      "publication_date": "2026-10-29",
+      "doi": "10.3390/app162110719",
+      "url": "https://doi.org/10.3390/app162110719",
+      "type": "journal-article",
+      "put_code": 231645475,
       "source": "orcid"
     },
     {
@@ -656,13 +669,13 @@
     }
   ],
   "sync_info": {
-    "public_groups": 50,
+    "public_groups": 51,
     "excluded_patents": 0,
     "duplicates_removed": 0,
     "types": {
-      "journal-article": 50
+      "journal-article": 51
     },
-    "details_received": 50,
+    "details_received": 51,
     "missing_authors": 11,
     "missing_journal": 0,
     "warnings": []
