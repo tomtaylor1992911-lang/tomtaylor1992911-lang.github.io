@@ -1,8 +1,8 @@
 {
   "orcid": "0000-0003-0360-5526",
   "source_url": "https://orcid.org/0000-0003-0360-5526",
-  "last_sync": "2026-11-13T09:44:21Z",
-  "work_count": 51,
+  "last_sync": "2026-11-14T09:06:28Z",
+  "work_count": 52,
   "publications": [
     {
       "id": "orcid-e03cb9e4c83c2c4e",
@@ -132,6 +132,19 @@
       "url": "https://doi.org/10.1002/advs.76884",
       "type": "journal-article",
       "put_code": 222327950,
+      "source": "orcid"
+    },
+    {
+      "id": "orcid-290da7537e8e7cfd",
+      "title": "Physics-Guided Unsupervised Deep Learning Layered Earth Inversion of Frequency-Domain CSAMT Data for Simultaneous Resistivity and Induced Polarization Parameter Recovery",
+      "authors": "Yanyi Qiao Qiao, Yubo Tian, Zheng Dai, Qiang Wang, Zhe Zhang, Hongqing Guan, Lingfeng Shi, Chunguang Zhu, Weitao Sun, Qiang Tang",
+      "journal": "Minerals",
+      "year": 2026,
+      "publication_date": "2026-11-13",
+      "doi": "10.3390/min16111189",
+      "url": "https://doi.org/10.3390/min16111189",
+      "type": "journal-article",
+      "put_code": 233368542,
       "source": "orcid"
     },
     {
@@ -669,13 +682,13 @@
     }
   ],
   "sync_info": {
-    "public_groups": 51,
+    "public_groups": 52,
     "excluded_patents": 0,
     "duplicates_removed": 0,
     "types": {
-      "journal-article": 51
+      "journal-article": 52
     },
-    "details_received": 51,
+    "details_received": 52,
     "missing_authors": 11,
     "missing_journal": 0,
     "warnings": []
