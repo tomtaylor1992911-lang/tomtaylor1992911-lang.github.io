@@ -1,8 +1,8 @@
 {
   "orcid": "0000-0003-0360-5526",
   "source_url": "https://orcid.org/0000-0003-0360-5526",
-  "last_sync": "2026-11-16T09:55:16Z",
-  "work_count": 52,
+  "last_sync": "2026-11-17T10:51:15Z",
+  "work_count": 53,
   "publications": [
     {
       "id": "orcid-e03cb9e4c83c2c4e",
@@ -80,6 +80,19 @@
       "url": "https://doi.org/10.1016/j.cej.2026.177838",
       "type": "journal-article",
       "put_code": 217709663,
+      "source": "orcid"
+    },
+    {
+      "id": "orcid-b751e1115a33ba8f",
+      "title": "Evaluating Correspondence Failures and Displacement Retention in Design-Referenced PCB Registration",
+      "authors": "Xiaochen Zhao, Qiang Tang",
+      "journal": "Electronics",
+      "year": 2026,
+      "publication_date": "2026-11-16",
+      "doi": "10.3390/electronics15225320",
+      "url": "https://doi.org/10.3390/electronics15225320",
+      "type": "journal-article",
+      "put_code": 233644758,
       "source": "orcid"
     },
     {
@@ -682,13 +695,13 @@
     }
   ],
   "sync_info": {
-    "public_groups": 52,
+    "public_groups": 53,
     "excluded_patents": 0,
     "duplicates_removed": 0,
     "types": {
-      "journal-article": 52
+      "journal-article": 53
     },
-    "details_received": 52,
+    "details_received": 53,
     "missing_authors": 11,
     "missing_journal": 0,
     "warnings": []
