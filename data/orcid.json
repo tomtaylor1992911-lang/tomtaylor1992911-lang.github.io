@@ -1,8 +1,8 @@
 {
   "orcid": "0000-0003-0360-5526",
   "source_url": "https://orcid.org/0000-0003-0360-5526",
-  "last_sync": "2026-11-19T10:29:54Z",
-  "work_count": 53,
+  "last_sync": "2026-11-20T10:11:23Z",
+  "work_count": 54,
   "publications": [
     {
       "id": "orcid-e03cb9e4c83c2c4e",
@@ -67,6 +67,19 @@
       "url": "https://doi.org/10.3390/mi17080878",
       "type": "journal-article",
       "put_code": 222085314,
+      "source": "orcid"
+    },
+    {
+      "id": "orcid-11a7937fbbb464b9",
+      "title": "Effects of Evaluation Design on Model Comparison and Selection in Droplet Microfluidics",
+      "authors": "Yunfeng Xing, Yuwen Liu, Qiang Tang",
+      "journal": "Micromachines",
+      "year": 2026,
+      "publication_date": "2026-11-19",
+      "doi": "10.3390/mi17111344",
+      "url": "https://doi.org/10.3390/mi17111344",
+      "type": "journal-article",
+      "put_code": 233952353,
       "source": "orcid"
     },
     {
@@ -695,13 +708,13 @@
     }
   ],
   "sync_info": {
-    "public_groups": 53,
+    "public_groups": 54,
     "excluded_patents": 0,
     "duplicates_removed": 0,
     "types": {
-      "journal-article": 53
+      "journal-article": 54
     },
-    "details_received": 53,
+    "details_received": 54,
     "missing_authors": 11,
     "missing_journal": 0,
     "warnings": []
