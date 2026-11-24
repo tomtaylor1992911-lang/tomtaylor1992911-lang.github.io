@@ -1,8 +1,8 @@
 {
   "orcid": "0000-0003-0360-5526",
   "source_url": "https://orcid.org/0000-0003-0360-5526",
-  "last_sync": "2026-11-23T10:55:54Z",
-  "work_count": 54,
+  "last_sync": "2026-11-24T12:39:29Z",
+  "work_count": 56,
   "publications": [
     {
       "id": "orcid-e03cb9e4c83c2c4e",
@@ -70,16 +70,29 @@
       "source": "orcid"
     },
     {
+      "id": "orcid-1fc760efd1634494",
+      "title": "CultureHealth-Net: A Cross-Cultural Contrastive Learning Framework for Wearable Health Behavior Analysis",
+      "authors": "Junxiang Yang, Wing Rosiah Ho, Rui Xu, Qiang Tang",
+      "journal": "Data",
+      "year": 2026,
+      "publication_date": "2026-11-23",
+      "doi": "10.3390/data11120314",
+      "url": "https://doi.org/10.3390/data11120314",
+      "type": "journal-article",
+      "put_code": 234371413,
+      "source": "orcid"
+    },
+    {
       "id": "orcid-11a7937fbbb464b9",
       "title": "Effects of Evaluation Design on Model Comparison and Selection in Droplet Microfluidics",
       "authors": "Yunfeng Xing, Yuwen Liu, Qiang Tang",
       "journal": "Micromachines",
       "year": 2026,
-      "publication_date": "2026-11-19",
+      "publication_date": "2026-11",
       "doi": "10.3390/mi17111344",
       "url": "https://doi.org/10.3390/mi17111344",
       "type": "journal-article",
-      "put_code": 233952353,
+      "put_code": 234394234,
       "source": "orcid"
     },
     {
@@ -119,6 +132,19 @@
       "url": "https://doi.org/10.1002/aenm.71688",
       "type": "journal-article",
       "put_code": 229637074,
+      "source": "orcid"
+    },
+    {
+      "id": "orcid-a74ef08008c5918f",
+      "title": "LSDD-Net: An Illumination-Robust Lightweight Network for Photoelectric-Sensing-Based Defect Detection in Logistics Sorting",
+      "authors": "Lei Pang, Rui Xu, Qiang Tang",
+      "journal": "Technologies",
+      "year": 2026,
+      "publication_date": "2026-11-22",
+      "doi": "10.3390/technologies14120778",
+      "url": "https://doi.org/10.3390/technologies14120778",
+      "type": "journal-article",
+      "put_code": 234385412,
       "source": "orcid"
     },
     {
@@ -708,13 +734,13 @@
     }
   ],
   "sync_info": {
-    "public_groups": 54,
+    "public_groups": 56,
     "excluded_patents": 0,
     "duplicates_removed": 0,
     "types": {
-      "journal-article": 54
+      "journal-article": 56
     },
-    "details_received": 54,
+    "details_received": 56,
     "missing_authors": 11,
     "missing_journal": 0,
     "warnings": []
