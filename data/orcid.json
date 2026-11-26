@@ -1,7 +1,7 @@
 {
   "orcid": "0000-0003-0360-5526",
   "source_url": "https://orcid.org/0000-0003-0360-5526",
-  "last_sync": "2026-11-25T11:28:37Z",
+  "last_sync": "2026-11-26T11:06:30Z",
   "work_count": 56,
   "publications": [
     {
@@ -192,11 +192,11 @@
       "authors": "Yanyi Qiao, Yubo Tian, Zheng Dai, Qiang Wang, Zhe Zhang, Hongqing Guan, Lingfeng Shi, Chunguang Zhu, Weitao Sun, Qiang Tang",
       "journal": "Minerals",
       "year": 2026,
-      "publication_date": "2026-11",
+      "publication_date": "2026-11-13",
       "doi": "10.3390/min16111189",
       "url": "https://doi.org/10.3390/min16111189",
       "type": "journal-article",
-      "put_code": 233789299,
+      "put_code": 233368542,
       "source": "orcid"
     },
     {
