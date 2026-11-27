@@ -1,7 +1,7 @@
 {
   "orcid": "0000-0003-0360-5526",
   "source_url": "https://orcid.org/0000-0003-0360-5526",
-  "last_sync": "2026-11-26T11:06:30Z",
+  "last_sync": "2026-11-27T11:01:16Z",
   "work_count": 56,
   "publications": [
     {
@@ -140,11 +140,11 @@
       "authors": "Lei Pang, Rui Xu, Qiang Tang",
       "journal": "Technologies",
       "year": 2026,
-      "publication_date": "2026-11-22",
+      "publication_date": "2026-11",
       "doi": "10.3390/technologies14120778",
       "url": "https://doi.org/10.3390/technologies14120778",
       "type": "journal-article",
-      "put_code": 234385412,
+      "put_code": 234770763,
       "source": "orcid"
     },
     {
